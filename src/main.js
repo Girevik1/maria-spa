@@ -8,6 +8,11 @@ Vue.use(Buefy)
 
 Vue.config.productionTip = false
 
+Vue.use(Buefy, {
+    defaultIconPack: 'fas',
+    defaultContainerElement: '.container',
+    // ...
+})
 // require('./assets/main.scss')
 
 new Vue({

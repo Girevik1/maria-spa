@@ -1,5 +1,6 @@
 <template>
-  <b-carousel
+    <div class="card">
+         <b-carousel
         :autoplay="false"
         with-carousel-list
         :indicator="false"
@@ -24,7 +25,9 @@
                 Hello i'am overlay!
             </div>
         </template>
-    </b-carousel>
+     </b-carousel>
+    </div>
+ 
 </template>
 
 <script>
