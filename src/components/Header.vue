@@ -4,37 +4,34 @@
             <b-navbar-item >
                 <img
                     :src="require('@/assets/klipartz.com.png')"
-                    alt="Lightweight UI components for Vue.js based on Bulma"
+                    alt="Знак клинического психиатра"
                 >
             </b-navbar-item>
         </template>
         <template #start>
-            <!-- <b-navbar-item href="#">
-                Home
-            </b-navbar-item> -->
+
             <span class="name-doc">Мария - Клинический психолог</span>
-            <b-navbar-item  tag="phone-alt">
-                 <a class="tel" href="tel:+380441234567">
-               <img
-                    :src="require('@/assets/tel.png')"
-                   
+            <b-navbar-item  class="tel" href="tel:+79047645981">
+               <img class="img-tel"
+                    :src="require('@/assets/tel.png')"  
                 >
-                    <!-- <span class=”phone-small”> -->
-                   <span>+38 (044) 123-45-67</span></a>
-            
+                <span>+7 (904) 764-59-81</span>
             </b-navbar-item>
            
         </template>
 
         <template #end>
-             <b-navbar-dropdown label="Контакты">
-                <b-navbar-item href="#">
-                    About
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    Contact
-                </b-navbar-item>
-            </b-navbar-dropdown>
+            <b-navbar-item  class="" href="https://t.me/Kozhevnikov_Max">
+               <img class="img-tel"
+                    :src="require('@/assets/telegram.png')"                 
+                >
+            </b-navbar-item>
+            <b-navbar-item  class="" href=" https://wa.me/+79047645981">  
+                <img class="img-tel"
+                    :src="require('@/assets/w.png')"                  
+                >
+            </b-navbar-item>
+            
         </template>
     </b-navbar>
 </template>
@@ -44,6 +41,23 @@ export default {
   name: 'Header',
   props: {
    
+  },
+
+  data(){
+      return {
+           items: [
+        {
+          title: "Мой telegram",
+          icon: "phone",
+          url: "https://t.me/mihail1134dd"
+        },
+        {
+          title: "Регистрация Френдекс",
+          icon: "mdi-view-dashboard",
+          url: "https://frendex.ltd/I/72805659"
+        }
+      ],
+      }
   }
 }
 </script>
@@ -51,11 +65,17 @@ export default {
 
 <style scoped>
 .tel {
-        text-indent: 0px;
+    text-indent: 0px;
     width: auto;
     line-height: 32px;
     font-weight: bold;
     font-size: 1.3em;
+    color: #080a0c;
+    cursor: pointer;
+    text-decoration: none;
+}
+.img-tel{
+    vertical-align: middle;
 }
 a{
     color: #0a72fb;
@@ -63,7 +83,7 @@ a{
     text-decoration: none;
 }
 .name-doc{
-        font-size: 25px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     font-family: emoji;

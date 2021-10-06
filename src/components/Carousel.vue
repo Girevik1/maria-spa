@@ -1,7 +1,7 @@
 <template>
-    <div class="card">
+    <div class="card diplom-container">
          <b-carousel
-        :autoplay="false"
+        :autoplay="true"
         with-carousel-list
         :indicator="false"
         :overlay="gallery"
@@ -22,7 +22,7 @@
         </template>
         <template #overlay>
             <div class="has-text-centered has-text-white">
-                Hello i'am overlay!
+              Мои дипломы и сертификаты
             </div>
         </template>
      </b-carousel>
@@ -52,38 +52,47 @@ export default {
                 }
             },
             items: [
+             
                 {
                     title: 'Slide 1',
-                    image: 'https://picsum.photos/id/0/1230/500'
+                    image: require('@/assets/doc(1).jpg')
                 },
                 {
                     title: 'Slide 2',
-                    image: 'https://picsum.photos/id/1/1230/500'
+                    image: require('@/assets/doc(2).jpg')
                 },
                 {
                     title: 'Slide 3',
-                    image: 'https://picsum.photos/id/2/1230/500'
+                    image: require('@/assets/doc(4).jpg')
                 },
                 {
                     title: 'Slide 4',
-                    image: 'https://picsum.photos/id/3/1230/500'
+                    image: require('@/assets/doc(5).jpg')
                 },
                 {
                     title: 'Slide 5',
-                    image: 'https://picsum.photos/id/4/1230/500'
+                    image: require('@/assets/doc(6).jpg')
                 },
                 {
                     title: 'Slide 6',
-                    image: 'https://picsum.photos/id/5/1230/500'
+                    image: require('@/assets/doc(7).jpg')
                 },
                 {
                     title: 'Slide 7',
-                    image: 'https://picsum.photos/id/6/1230/500'
+                    image: require('@/assets/doc(8).jpg')
                 },
                 {
                     title: 'Slide 8',
-                    image: 'https://picsum.photos/id/7/1230/500'
-                }
+                    image: require('@/assets/doc(9).jpg')
+                },
+                {
+                    title: 'Slide 9',
+                    image: require('@/assets/doc(9).jpg')
+                },
+                {
+                    title: 'Slide 10',
+                    image: require('@/assets/doc(10).jpg')
+                },
             ]
         }
     },
@@ -103,5 +112,12 @@ export default {
 
 
 <style scoped>
-
+.diplom-container{
+    margin-bottom: 24px;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+    box-shadow: 2px 2px 14px 4px #a5a5a5;
+}
 </style>
