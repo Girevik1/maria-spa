@@ -7,29 +7,31 @@
                     alt="Знак клинического психиатра"
                 >
             </b-navbar-item>
+            <!-- <div class="name-doc">Мария - Клинический психолог</div> -->
+            <div class="name-doc">Клинический психолог</div>
         </template>
-        <template #start>
 
-            <span class="name-doc">Мария - Клинический психолог</span>
+        <template #start>
             <b-navbar-item  class="tel" href="tel:+79047645981">
                <img class="img-tel"
                     :src="require('@/assets/tel.png')"  
                 >
                 <span>+7 (904) 764-59-81</span>
             </b-navbar-item>
-           
         </template>
 
         <template #end>
-            <b-navbar-item  class="" href="https://t.me/Kozhevnikov_Max">
+            <b-navbar-item  class="messager" href="https://t.me/artur_timerkhanov">
                <img class="img-tel"
                     :src="require('@/assets/telegram.png')"                 
                 >
+                <span style="padding-left: 4px;">Telegram</span>
             </b-navbar-item>
-            <b-navbar-item  class="" href=" https://wa.me/+79047645981">  
+            <b-navbar-item  class="messager" href=" https://wa.me/+79047645981">  
                 <img class="img-tel"
                     :src="require('@/assets/w.png')"                  
                 >
+                <span style="padding-left: 4px;">WhatsApp</span>
             </b-navbar-item>
             
         </template>
@@ -45,18 +47,7 @@ export default {
 
   data(){
       return {
-           items: [
-        {
-          title: "Мой telegram",
-          icon: "phone",
-          url: "https://t.me/mihail1134dd"
-        },
-        {
-          title: "Регистрация Френдекс",
-          icon: "mdi-view-dashboard",
-          url: "https://frendex.ltd/I/72805659"
-        }
-      ],
+      
       }
   }
 }
@@ -88,9 +79,15 @@ a{
     font-weight: 400;
     font-family: emoji;
     margin-top: 8px;
+    text-align: center;
 }
 nav.navbar{
     padding-left: 12px;
     padding-right: 12px;
+}
+.messager{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
 }
 </style>
