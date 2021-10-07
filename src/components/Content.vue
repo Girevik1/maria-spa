@@ -66,6 +66,7 @@ export default {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 p{
   text-indent: 20px;

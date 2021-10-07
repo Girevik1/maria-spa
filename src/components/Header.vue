@@ -21,17 +21,17 @@
         </template>
 
         <template #end>
-            <b-navbar-item  class="messager" href="https://t.me/artur_timerkhanov">
+            <b-navbar-item  class="messager" href="https://t.me/Maria_gaysina">
                <img class="img-tel"
                     :src="require('@/assets/telegram.png')"                 
                 >
-                <span style="padding-left: 4px;">Telegram</span>
+                <span style="padding-left: 6px;">Telegram</span>
             </b-navbar-item>
             <b-navbar-item  class="messager" href=" https://wa.me/+79047645981">  
                 <img class="img-tel"
                     :src="require('@/assets/w.png')"                  
                 >
-                <span style="padding-left: 4px;">WhatsApp</span>
+                <span style="padding-left: 6px;">WhatsApp</span>
             </b-navbar-item>
             
         </template>
@@ -86,7 +86,7 @@ nav.navbar{
     padding-right: 12px;
 }
 .messager{
-    font-size: 16px;
+    font-size: 17px;
     color: black;
     font-weight: 500;
 }
