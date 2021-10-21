@@ -44,18 +44,19 @@ export default {
 
 <style scoped>
 .info-container{
-  margin: 0px; 
+  /* margin: 0px;  */
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 .first-block{
-   box-shadow: rgb(219 219 219) 0px 0px 10px;
+  box-shadow: rgb(219 219 219) 0px 0px 10px;
   background-color: #fbfbfb;
-  margin: 6px;
+  /* margin: 6px; */
 }
 .second-block{
    box-shadow: rgb(219 219 219) 0px 0px 10px;
   background-color: #fbfbfb;
-  margin: 6px;
+  /* margin: 6px; */
 }
 .ps-title{
   text-align: center;
@@ -75,5 +76,8 @@ p{
 }
 .sign{
   text-align: right;
+}
+.columns {
+  margin: 0;
 }
 </style>

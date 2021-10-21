@@ -13,6 +13,7 @@
 import Header from './components/Header.vue'
 import Content from './components/Content.vue'
 import Carousel from './components/Carousel.vue'
+// import Description from './components/Description.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -27,6 +28,7 @@ export default {
         Header,
         Content,
         Carousel,
+        // Description,
         Footer,
     }
 }
