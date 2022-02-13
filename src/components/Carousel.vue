@@ -73,27 +73,27 @@ export default {
                 },
                 {
                     title: 'Slide 3',
-                    image: require('@/assets/doc(4).jpg')
+                    image: require('@/assets/doc(3).jpg')
                 },
                 {
                     title: 'Slide 4',
-                    image: require('@/assets/doc(5).jpg')
+                    image: require('@/assets/doc(4).jpg')
                 },
                 {
                     title: 'Slide 5',
-                    image: require('@/assets/doc(6).jpg')
+                    image: require('@/assets/doc(5).jpg')
                 },
                 {
                     title: 'Slide 6',
-                    image: require('@/assets/doc(7).jpg')
+                    image: require('@/assets/doc(6).jpg')
                 },
                 {
                     title: 'Slide 7',
-                    image: require('@/assets/doc(8).jpg')
+                    image: require('@/assets/doc(7).jpg')
                 },
                 {
                     title: 'Slide 8',
-                    image: require('@/assets/doc(9).jpg')
+                    image: require('@/assets/doc(8).jpg')
                 },
                 {
                     title: 'Slide 9',
@@ -102,6 +102,10 @@ export default {
                 {
                     title: 'Slide 10',
                     image: require('@/assets/doc(10).jpg')
+                },
+                {
+                    title: 'Slide 11',
+                    image: require('@/assets/doc(11).jpg')
                 },
             ]
         }
