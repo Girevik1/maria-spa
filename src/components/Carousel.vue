@@ -111,6 +111,11 @@ export default {
                     title: 'Slide 12',
                     image: require('@/assets/doc(12).png')
                 },
+                {
+                    title: 'Slide 13',
+                    image: require('@/assets/doc(13).jpg')
+                },
+
             ]
         }
     },
